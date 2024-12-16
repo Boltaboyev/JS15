@@ -179,29 +179,6 @@ class Product {
         return `name:${this.name}, price:${this.price}, stock:${this.stock}`;
     }
 }
-// class OrderItem {
-//     constructor(product, quantity) {
-//         if (quantity > product.stock) {
-//             console.log("not enough available");
-//             this.product = null;
-//             this.quantity = 0;
-//         } else {
-//             this.product = product;
-//             this.quantity = quantity;
-//         }
-//     }
-// }
-// class Shop {
-//     constructor() {
-//         this.products = [];
-//         this.orders = [];
-//     }
-//     addProduct(product) {
-//         this.products.push(product);
-//     }
-//     listProducts() {
 
-//     }
-// }
 
 
